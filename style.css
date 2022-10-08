@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calc-wrapper {
+    text-align: center;
+    font-size: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+h1{
+    padding: 10px 0;
+    font-size: 40px;
+}
+h1:hover{
+    color: red;
+}
+.calc-main{
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 2px 3px 15px rgb(0 0 0 / .2);
+    transition: .5s;
+}
+.calc-main:hover{
+    box-shadow: 2.5px 10px 15px 10px rgb(0 0 0 / .2);
+}
+.calc-top input{
+    width: 100%;
+    padding: 25px 5px;
+    text-align: right;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    outline: none;
+    background-color: rgba(255, 252, 252, 0.766);
+    border: 1px solid rgb(0, 0, 0);
+}
+.calc-top input:focus{
+    border: 1px solid rgb(0, 145, 255);
+    outline: none;
+    background-color: rgba(255, 252, 252, 0.85);
+}
+.calc-bottom .btn{
+    width: 87px;
+    height: 70px;
+    background-color: rgb(37, 36, 36);
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border: 0.5px solid #efefef8f;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    transition: .4s;
+}
+.calc-bottom .btnec{
+    background-color: blue ;
+}
+.calc-bottom .btneco{
+    background-color: orange ;
+}
+.calc-bottom .btn:hover{
+    background-color: red;
+    /* color: black; */
+}
